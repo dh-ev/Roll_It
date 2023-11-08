@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Agbalmo;
+    src: url(Agbalumo-Regular.ttf);
+}
+
+body{
+    background-color: #F1EAFF;
+}
+
+h1{
+    color: #9834ed;
+    font-family: 'Agbalmo';
+    font-size: 6rem;  
+    text-shadow: 2px 2px #4e4a52;
+    display:flex;
+    justify-content: center;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+}
+
+.img1{
+    border-radius: 10%;
+}
+
+.img2{
+    border-radius: 10%;
+}
+
+.players{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.player{
+    color: #9057c9;
+    font-family: 'Agbalmo';
+    font-size: 2rem;
+    text-shadow: 1px 1px #4e4a52;
+}
+
+.creator{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:baseline;
+    color: #9057c9;
+    font-family: 'Agbalmo';
+    font-size: 1.25rem;
+    text-shadow: 1px 1px #4e4a52;
+}
